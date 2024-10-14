@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.04
 RUN apt update && apt upgrade -y
 
 RUN apt install -y python3 python3-dev python3.12-venv
